@@ -1,0 +1,35 @@
+site_name: Linux Post Install Setup
+theme: material
+nav:
+  - Home: "index.md"
+  - Quickies: "Quickies/index.md"
+  - Distributions:
+      - Garuda:
+          - Description: "Distributions/Garuda/index.md"
+          - "KDE Dr460nized":
+              - Latte: "Distributions/Garuda/Latte.md"
+  - Hardware:
+      Keyboards:
+        Corsair:
+          K70: "Hardware/Keyboards/Corsair/K70/index.md"
+      Laptops:
+        HP:
+          Pavilion:
+            DV4: "Hardware/Laptops/HP/Pavilion/DV4/index.md"
+            DV6: "Hardware/Laptops/HP/Pavilion/DV6/index.md"
+      Lighting:
+        Corsair:
+          Lighting: "Hardware/Lighting/Corsair/LightingNode/index.md"
+      Mice:
+        Corsair:
+          M65: "Hardware/Mice/Corsair/M65/index.md"
+      Motherboards:
+        ASUS:
+          Sabertooth:
+            Z97:
+              MK1:
+                About: "Hardware/Motherboards/ASUS/Sabertooth/Z97/MK1/index.md"
+                FanControl: "Hardware/Motherboards/ASUS/Sabertooth/Z97/MK1/FanControl/index.md"
+  - Packages:
+      CPUPOWER: "Packages/CPUPower/index.md"
+      OpenRGB: "Packages/OpenRGB/index.md"
