@@ -1292,11 +1292,13 @@ User Profile Path: <code>~/.config/cpupower_gui/</code></p>
 0-7 1200    3600    powersave   True
 </code></pre>
 <h2 id="boot-time">Boot Time</h2>
-<p>If you'd still like to setup the service to start at boot time, go on a head. I'd suggest configuring the service first before doing so or just restart it as needed as you make changes.</p>
+<p>If you'd still like to setup the service to start at boot time see instruction further down. I'd suggest configuring the service first before doing so or just restart it as needed as you make changes.</p>
 <h3 id="configure">Configure</h3>
-<p>Global Config File: <code>/etc/cpupower_gui.conf</code>
-User Config File: <code>~/.config/cpupower_gui/00-cpg.conf</code></p>
-<p>N.B. This example assumes you have created the conservative profile.</p>
+<ul>
+<li>Global Config File: <code>/etc/cpupower_gui.conf</code></li>
+<li>User Config File: <code>~/.config/cpupower_gui/00-cpg.conf</code></li>
+</ul>
+<p>N.B. This example assumes you have created the <code>Conservative</code> profile.</p>
 <pre><code>[Profile]
 profile = Conservative
 

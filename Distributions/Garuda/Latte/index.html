@@ -1044,12 +1044,12 @@
 
 <h1 id="latte">Latte</h1>
 <p>It's very nice, but not my taste. I do like the general setup so I will borrow from it and mimic it using Plasma native panels.</p>
-<h1 id="pre">Pre</h1>
+<h1 id="before-you-start">Before you start</h1>
 <ul>
-<li>You will lose the use of META to launch the application launcher. There's fix for this described at the end.</li>
-<li>Quite Latte</li>
+<li>You will lose the use of the META key used to launch the application launcher. There's fix for this described at the end.</li>
+<li>Quit Latte</li>
 <li>This is to keep Latte out of the way while the new layout is being setup.</li>
-<li>In the event you're not happy, you will have soemthing to work with.</li>
+<li>In the event you're not happy with the setup, you will have something to work with until you sort things out or get rid of the native panels.</li>
 <li>Be prepared for a mess of a UI if you've setup some new panels as Latte may overlap them when it loads.</li>
 </ul>
 <h1 id="setup">Setup</h1>
@@ -1079,17 +1079,17 @@
 <li>System Tray</li>
 <li>Event Calendar</li>
 </ul>
-<h2 id="finalize-clean-up">Finalize &amp; Clean Up</h2>
+<h1 id="finalize-clean-up">Finalize &amp; Clean Up</h1>
 <ul>
 <li>Uninstall Latte</li>
 <li>Restore use of <code>meta</code> key to trigger application launcher.</li>
 <li>Restore window titlebars</li>
 </ul>
-<h3 id="uninstall-latte">Uninstall Latte</h3>
+<h2 id="uninstall-latte">Uninstall Latte</h2>
 <ul>
 <li>Use you preferred package manager and remove Latte</li>
 </ul>
-<h3 id="restore-meta-key">Restore META key</h3>
+<h2 id="restore-meta-key">Restore META key</h2>
 <ul>
 <li>Back up the file <code>~/.config/kglobalshortcutsrc</code>.</li>
 <li>Use your preferred editor and modify the file.</li>
@@ -1101,7 +1101,7 @@
 <pre><code># Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 </code></pre>
 <p>N.B. The line <strong>will</strong> get removed from the file on next reboot.</p>
-<h3 id="restore-window-titlebars">Restore window titlebars</h3>
+<h2 id="restore-window-title-bars">Restore window title bars</h2>
 <ul>
 <li>Back up the file <code>~/.config/kwinrc</code>.</li>
 <li>Use your preferred editor and modify the file.</li>
