@@ -2,12 +2,12 @@
 
 It's very nice, but not my taste. I do like the general setup so I will borrow from it and mimic it using Plasma native panels.
 
-# Pre
+# Before you start
 
-- You will lose the use of META to launch the application launcher. There's fix for this described at the end.
-- Quite Latte
+- You will lose the use of the META key used to launch the application launcher. There's fix for this described at the end.
+- Quit Latte
   - This is to keep Latte out of the way while the new layout is being setup.
-  - In the event you're not happy, you will have soemthing to work with.
+  - In the event you're not happy with the setup, you will have something to work with until you sort things out or get rid of the native panels.
   - Be prepared for a mess of a UI if you've setup some new panels as Latte may overlap them when it loads.
 
 # Setup
@@ -37,17 +37,17 @@ It's very nice, but not my taste. I do like the general setup so I will borrow f
   - System Tray
   - Event Calendar
 
-## Finalize & Clean Up
+# Finalize & Clean Up
 
 - Uninstall Latte
 - Restore use of `meta` key to trigger application launcher.
 - Restore window titlebars
 
-### Uninstall Latte
+## Uninstall Latte
 
 - Use you preferred package manager and remove Latte
 
-### Restore META key
+## Restore META key
 
 - Back up the file `~/.config/kglobalshortcutsrc`.
 - Use your preferred editor and modify the file.
@@ -66,7 +66,7 @@ After:
 
 N.B. The line **will** get removed from the file on next reboot.
 
-### Restore window titlebars
+## Restore window title bars
 
 - Back up the file `~/.config/kwinrc`.
 - Use your preferred editor and modify the file.

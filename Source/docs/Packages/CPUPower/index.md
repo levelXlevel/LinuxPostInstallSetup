@@ -49,14 +49,14 @@ Config File: `/etc/cpupower_gui.d/Powersave.profile`
 
 ## Boot Time
 
-If you'd still like to setup the service to start at boot time, go on a head. I'd suggest configuring the service first before doing so or just restart it as needed as you make changes.
+If you'd still like to setup the service to start at boot time see instruction further down. I'd suggest configuring the service first before doing so or just restart it as needed as you make changes.
 
 ### Configure
 
-Global Config File: `/etc/cpupower_gui.conf`
-User Config File: `~/.config/cpupower_gui/00-cpg.conf`
+- Global Config File: `/etc/cpupower_gui.conf`
+- User Config File: `~/.config/cpupower_gui/00-cpg.conf`
 
-N.B. This example assumes you have created the conservative profile.
+N.B. This example assumes you have created the `Conservative` profile.
 
 ```
 [Profile]
