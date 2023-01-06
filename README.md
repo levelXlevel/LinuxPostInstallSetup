@@ -12,21 +12,26 @@ I settled on mkdocs to handle the task of managing the documents.
 
 It's my first project primarily for my own use. That said I am willing to accept feed back & commits. Not sure exactly how I want to do that, but yeah, there it is.
 
-## DIY
+## Setup the project
 
-1. Read the [MkDocs](https://www.mkdocs.org/) documentation
-1. Clone the repo
-1. Change to the project folder
+1. Read the [MkDocs](https://www.mkdocs.org/) documentation.
+1. Clone the repo.
+1. Change to the project folder.
 1. Create a python (3.x) environment using `python -m venv .env` or whatever method you use.
 1. Activate the environment you just created:
    1. source ./.env/bin/activate
    1. source ./.env/bin/activate.fish
    1. Or whatever is the equivalent for your setup.
-1. Install dependencies using `pip install -r install.txt`
-1. Change to the `Source` directory.
-1. Launch the mkdoc server using `mkdocs serve`
-1. Open the `Source` folder in your editor of choice.
+1. Install dependencies using `pip install -r install.txt`1.
+1. Launch the mkdoc server using `mkdocs serve`1.
 1. View the docs in your [browser](http://localhost:8000/)
+
+## Edit
+
+1. Open the project folder in your editor of choice.
+1. Read the [MkDocs](https://www.mkdocs.org/) documentation.
+1. Edit the document.
+1. Have questions? Please re-read the [MkDocs](https://www.mkdocs.org/) documentation.
 
 ## Recommendations
 
