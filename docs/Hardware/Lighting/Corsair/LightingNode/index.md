@@ -1,6 +1,6 @@
 # Corsair Lighting Node Core
 
-[Website]()
+[Product Page](https://www.corsair.com/ca/de/Kategorien/Produkte/Zubeh%C3%B6r-%7C-Teile/CORSAIR-LINK/iCUE-Lighting-Node-CORE-Digital-Fan-RGB-Lighting-Controller/p/CL-8930009)
 
 ## UDEV
 

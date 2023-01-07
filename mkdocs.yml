@@ -6,6 +6,9 @@ nav:
   - Distributions:
       - Garuda:
           - Description: "Distributions/Garuda/index.md"
+          - General:
+              - Ananicy: "Distributions/Garuda/Ananicy.md"
+              - Fonts: "Distributions/Garuda/Fonts.md"
           - "KDE Dr460nized":
               - Latte: "Distributions/Garuda/Latte.md"
   - Hardware:

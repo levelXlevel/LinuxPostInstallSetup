@@ -1,6 +1,6 @@
 # Corsair K70 RGB Mechanical Keyboard
 
-[Website]()
+[Product Page](https://www.corsair.com/us/en/k70-rgb-gaming-keyboard)
 
 ## UDEV
 
